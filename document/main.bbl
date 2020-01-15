@@ -1,0 +1,44 @@
+\begin{thebibliography}{1}
+
+\bibitem{Knuth}
+D.E. Knuth,
+Computers \& Typesetting, Volume B: \TeX : The Program (Computers and
+  Typesetting),
+Addison-Wesley Professional, 1986.
+
+\bibitem{Okumura201701}
+奥村晴彦，黒木裕介，
+[改訂第7版]\LaTeX2e 美文書作成入門，
+技術評論社，2017．
+
+\bibitem{Yoshinaga201808}
+吉永徹美，
+\LaTeX2e 辞典 増補改訂版 (DESKTOP REFERENCE)，
+翔泳社，2018．
+
+\bibitem{Tsuchiya201808}
+土屋\hskip1zw勝，
+\LaTeX はじめの一歩―Windows 10/8/7対応 (やさしいプログラミング)，
+カットシステム，2018．
+
+\bibitem{Yoshinaga200803}
+吉永徹美，
+独習 \LaTeX2e，
+翔泳社，2008．
+
+\bibitem{Dilip201707}
+D. Datta,
+{\LaTeX in 24 Hours: A Practical Guide for Scientific Writing},
+Springer, 2017.
+
+\bibitem{George201409}
+G. Graetzer,
+Practical \LaTeX,
+Springer, 2014.
+
+\bibitem{Akama201410}
+赤間世紀，
+\LaTeX 論文作成マニュアル―「論文」の書き方と「\LaTeX 」の使い方 (I・O BOOKS)，
+工学社，2014．
+
+\end{thebibliography}

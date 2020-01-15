@@ -1,0 +1,66 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% 情報通信システム工学科 卒業論文テンプレート（令和元年度版）
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{icsthesis}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[fleqn]{amsmath}
+\usepackage{fancyhdr}
+\usepackage{bm}
+\usepackage{bigstrut}
+\usepackage{multirow}
+\usepackage{amsfonts}
+
+%%----------------------------------------------------------------------------------------------------------------------
+%% 表紙の記載事項
+%%----------------------------------------------------------------------------------------------------------------------
+%% 論文タイトル
+\title{強い卒論}
+
+%% 著者一覧
+\authorA{XXXXXXX}{書いた人}
+
+%% 指導教員
+\supervisor{素晴らしい 教授}
+
+%% 提出日
+\date{令和2年2月2日}
+
+%%----------------------------------------------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+%-----------------------------------------------------------
+% ヘッダ・フッタ設定
+\pagestyle{fancy}
+\fancyhead[R]{\nouppercase{\fontsize{10.5pt}{0pt}\selectfont\rightmark}}
+\fancyhead[L]{\nouppercase{\fontsize{10.5pt}{0pt}\selectfont\leftmark}}
+%\fancyhead[R]{\nouppercase{\small\rightmark}}
+%\fancyhead[L]{\nouppercase{\small\leftmark}}
+\fancyfoot[C]{--\ \thepage\ --}
+\renewcommand{\headrulewidth}{0.3truemm}
+%-----------------------------------------------------------
+%% 目次
+\pagenumbering{roman}
+\setcounter{tocdepth}{4}
+\pagestyle{fancy}
+\fancyfoot[C]{--\ \thepage\ --}
+{\makeatletter
+\let\ps@jpl@in\ps@empty
+\makeatother
+\pagestyle{plain}
+\tableofcontents
+\clearpage}
+\pagenumbering{arabic}
+
+%-----------------------------------------------------------
+%% 本文
+\input{./chapters/body.tex}
+
+%-----------------------------------------------------------
+%% 謝辞・参考文献・付録
+\input{./chapters/acknowledgments.tex}
+\input{./chapters/references.tex}
+\input{./chapters/end_addition.tex}
+
+\end{document}

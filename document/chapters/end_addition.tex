@@ -1,0 +1,31 @@
+%%----------------------------------------------------------------------------------------------------------------------
+%% 付録： 不要なら，最後の \end{document} を残して，これ以降の行を消す．
+%%
+\clearpage
+\fancyhead[L]{\nouppercase{\small\leftmark}}
+\fancyhead[R]{\nouppercase{\small\rightmark}}
+\fancyfoot[C]{--\ \thepage\ --}
+\renewcommand{\headrulewidth}{0.3truemm}
+\appendix
+\chapter{付録章見出し}
+ここから付録のページである．章や節の番号付けが変わるだけで本文の章や節と同じように記述できる．
+不要な場合は，``\textsf{thesis.tex}''内の指示に従い，不要な行を削除する．
+
+ここは「付録章」である．\textsf{\yen appendix}以降に，\textsf{\yen chapter\{見出し文字列\}}と書けば，
+「付録章見出し」が設定される．
+「章見出し」と同じ文字サイズ，同じ上下余白である．
+
+\section{付録節見出し}
+ここは，「付録節」である．\textsf{\yen appendix}以降に\textsf{\yen section\{見出し文字列\}}と書けば，
+「付録節見出し」が設定される．
+「節見出し」と同じ文字サイズ，同じ上下余白である．
+
+\subsection{付録小節見出し}
+ここは，「付録小節」である．\textsf{\yen appendix}以降に\textsf{\yen subsection\{見出し文字列\}}と書けば，
+「付録小節見出し」が設定される．
+「小節見出し」と同じ文字サイズ，同じ上下余白である．
+
+\subsubsection{付録小小見出し}
+ここは，「付録小小節」である．\textsf{\yen appendix}以降に\textsf{\yen subsubsection\{見出し文字列\}}と書けば，
+「付録小小節見出し」が設定される．
+「小小節見出し」と同じ文字サイズ，同じ上下余白である．
