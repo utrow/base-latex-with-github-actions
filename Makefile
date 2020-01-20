@@ -23,7 +23,7 @@ pdf:
 	@echo "\n▶️  Mounting... $(shell pwd)/$(DOCUMENT_DIR)"
 	@echo "\n▶️  Building document...\n"
 	docker run --rm -v $(shell pwd)/$(BUILD_DIR):/workdir/build \
-		-e TZ=Asia/Tokyo $(DOCKER_IMAGE) sh /scripts/build.sh
+		-e TZ=Asia/Tokyo $(DOCKER_IMAGE) $(DOCUMENT_MAIN)
 	@echo "$(SPACER)"
 	@echo " 🎁  Output to $(BUILD_DIR)/main.pdf\n"
 
